@@ -1,0 +1,32 @@
+#Contact {
+  background-color: rgba(0, 0, 0, 0.75);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+#Contact > div {
+  color: white;
+  line-height: 20pt;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#Contact a {
+  color: white;
+}
+
+#fb-icon {
+  margin: 20px;
+}
+
+#Contact img {
+  width: 40%;
+  max-width: 150px;
+  margin-top: 20px;
+}

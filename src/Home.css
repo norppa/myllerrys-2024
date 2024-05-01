@@ -1,0 +1,137 @@
+#Home {
+  background-image: url(./assets/iltamat.jpg);
+  min-height: 40vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 250px 0px 200px 0px;
+  color: white;
+}
+
+#Home h1 {
+  font-family: 'Dancing Script';
+  font-weight: 600;
+  font-size: 100pt;
+  margin: 0px;
+}
+
+#Home .info {
+  letter-spacing: 2px;
+  font-family: "Bree Serif", sans-serif;
+  text-transform: uppercase;
+  font-size: 24pt;
+  margin: 0px 0px 8px 0px;
+}
+
+#Home .date {
+  font-size: 26pt;
+  font-weight: bold;
+}
+
+#Home .conditional-br {
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  #Home {
+    padding-top: 200px;
+    padding-bottom: 150px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  #Home {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  #Home h1 {
+    line-height: 85pt;
+    margin-bottom: 30px;
+  }
+
+  #Home .info {
+    line-height: 22pt;
+  }
+
+  #Home .conditional-br {
+    display: inline;
+  }
+}
+
+
+
+@media only screen and (max-width: 650px) {
+  #Home {
+    padding-top: 75px;
+    padding-bottom: 30px;
+  }
+
+  #Home h1 {
+    font-size: 80pt;
+    line-height: 65pt;
+    margin-bottom: 20px;
+  }
+
+  #Home .info {
+    font-size: 20pt;
+    line-height: 18pt;
+  }
+
+  #Home .date {
+    font-size: 22pt;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #Home {
+    background-image: url(./assets/iltamat_small.png);
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+
+  #Home h1 {
+    font-size: 50pt;
+    line-height: 40pt;
+    margin-bottom: 15px;
+  }
+
+  #Home .info {
+    font-size: 16pt;
+    line-height: 14pt;
+  }
+
+  #Home .date {
+    font-size: 18pt;
+  }
+}
+
+
+
+@media only screen and (max-width: 280px) {
+  #Home {
+    background-image: url(./assets/iltamat_small.png);
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+
+  #Home h1 {
+    font-size: 28pt;
+    line-height: 22pt;
+    margin-bottom: 15px;
+  }
+
+  #Home .info {
+    font-size: 8pt;
+    line-height: 14pt;
+  }
+
+  #Home .date {
+    font-size: 12pt;
+  }
+}
