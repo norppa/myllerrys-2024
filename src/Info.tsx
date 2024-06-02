@@ -35,10 +35,10 @@ const Info = () => {
         <h2 >Jamit</h2>
 
         <p>
-          Iltajameissa päästään ottamaan kurssien opit käyttöön ja pistämään jalalla koreasti svengaavan musiikin tahtiin. Jamimeininkiä on sekä perjantaina että lauantaina alkaen kello kuusi ja päättyen kun tanssijat ja soittajat kupsahtavat nukkumaan. Puitteet tarjoaa Niemen navetta, jossa päästään autenttiseen folkkitunnelmaan. Illan aikana on tarjolla iltaruoka, jotta jaksetaan riehua myöhään yöhön asti. Navetassa ei ole alkoholitarjoilua, joten varustauduthan siltä osin henkilökohtaisin eväin mikäli sellaisia kaipaat.
+          Iltajameissa päästään ottamaan kurssien opit käyttöön ja pistämään jalalla koreasti svengaavan musiikin tahtiin. Jamimeininkiä on sekä perjantaina että lauantaina alkaen klo 18 ja päättyen kun tanssijat ja soittajat kupsahtavat nukkumaan. Puitteet tarjoaa Niemen navetta, jossa päästään autenttiseen folkkitunnelmaan. Illan aikana on tarjolla iltaruoka, jotta jaksetaan riehua myöhään yöhön asti. Navetassa ei ole alkoholitarjoilua, joten varustauduthan siltä osin henkilökohtaisin eväin mikäli sellaisia kaipaat.
         </p>
         <p>
-          Lauantaiohjelman aloittaa Aitoniemen Orkesteri, joka nostaa tunnelman kattoon raisulla pelimannimeiningillä. Tanssilattilla on avoin sekahaku koko illan ja kaikki ovat tervetulleita niin viemään kuin seuraamaan. Virallisen bändin väsähdettyä jatketan vapaamuotoisilla jameilla, joten jos mielesi tekee istahtaa soittajan tuolille, tuo mukaan oma soittimesi ja liity pelimanneihin.
+          Lauantaiohjelman aloittaa Aitoniemen Orkesteri, joka nostaa tunnelman kattoon raisulla pelimannimeiningillä. Tanssilattilla on avoin sekahaku koko illan ja kaikki ovat tervetulleita niin viemään kuin seuraamaan. Virallisen bändin väsähdettyä jatketaan vapaamuotoisilla jameilla, joten jos mielesi tekee istahtaa soittajan tuolille, tuo mukaan oma soittimesi ja liity pelimanneihin.
         </p>
 
 
@@ -55,14 +55,10 @@ const Info = () => {
         </iframe>
 
         <p>
-          Leiri tapahtuu <a href='https://www.seurantalot.fi/talot/1820-aitom%C3%A4en-nuorisoseura-ry-1009'>Aitomäen nuorisoseuran talolla</a>, sekä viereisen Niemen navetan ylisillä. Majoitus tapahtuu seuraintalon majoitustiloissa, jossa on sängyt 20 ihmiselle ja paljon tilaa omien patjojen kanssa tuleville. Ota mukaasi omat petivaatteet ja halutessasi myös tyyny. Koska patjoja on rajoitetusti, pyydämme, että jos vain suinkin kykenet, saavut oman patjan kanssa.
+          Leiri tapahtuu <a href='https://www.seurantalot.fi/talot/1820-aitom%C3%A4en-nuorisoseura-ry-1009'>Aitomäen nuorisoseuran talolla</a> sekä viereisen Niemen navetan ylisillä. Majoitus tapahtuu seuraintalon majoitustiloissa, jossa on sängyt 20 ihmiselle ja paljon tilaa omien patjojen kanssa tuleville. Ota mukaasi omat petivaatteet ja halutessasi myös tyyny. Koska patjoja on rajoitetusti, pyydämme, että jos vain suinkin kykenet, saavut oman patjan kanssa.
         </p>
 
         <a id='maplink' href={mapSrc}>Nuorisoseuran talon sijainti kartalla</a>
-
-        {/* <p>
-          Miten pääset paikalle, etäisyys juna-asemalta, bussit, junat, Lähimmät kaupat etc
-        </p> */}
 
         <img src={taloPNG} alt='Aitoniemen nuorisoseuran talo' />
         <p />
@@ -71,7 +67,7 @@ const Info = () => {
         <div id='Food' className='anchor' />
         <h2>Ruokailut</h2>
         <p>
-          Kurssiin kuuluu täysihoito, eli majoitusten lisäksi kurssilaisille tarjotaan kaikki ruoat kurssin aikana. Tarjolla on perjantaina iltaruoka, lauantaina aamupala, lounas, välipala, päivällinen ja iltaruoka, sekä sunnuntaina vielä aamupala. Kaikki ruoka on vegaanista.
+          Kurssiin kuuluu täysihoito, eli majoitusten lisäksi kurssilaisille tarjotaan kaikki ruoat kurssin aikana. Tarjolla on perjantaina iltaruoka, lauantaina aamupala, lounas, välipala, päivällinen ja iltaruoka, sekä sunnuntaina vielä aamupala.
         </p>
         <p>
           Mikäli sinulla on ruoka-ainerajoitteita, ilmoitathan niistä ilmoittautuessasi, jotta pystymme tarjoamaan kaikille tukevat ateriat.
@@ -92,8 +88,13 @@ const Info = () => {
 
         <div id='Signup' className='anchor' />
         <h2>Ilmoittautuminen</h2>
-        Imoittautuminen tehdään Nuorisoseurojen ilmoittautumislomakkeella.
-        <a href='https://nuorisoseurarekisteri.fi/Tapahtumat/tapahtumatiedot.aspx?id=5676'><button>Ilmoittautudu Myllerrykseen</button></a>
+        Myllerrys on loppuunmyyty!
+        <br />
+        <br />
+        Mikäli missasit ilmoitttautumisen, mutta mielesi tekee leirille, kannattaa edelleen ilmoittautua varasijalle. Peruutuksia todennäköisesti vielä ennen syksyä ilmenee ja pyrimme täyttämään leirin viimeistä paikkaa myöten. Varasijoilta otetaan osallistujia ilmoittautumisjärjestyksessä ja heille ilmoitetaan leirille pääsystä henkilökohtaisesti heti kun paikkoja aukeaa.
+        <br />
+        Ilmoittautuminen tehdään Nuorisoseurojen ilmoittautumislomakkeella.
+        <a href='https://nuorisoseurarekisteri.fi/Tapahtumat/tapahtumatiedot.aspx?id=5676'><button>Ilmoittaudu varasijalle Myllerrykseen</button></a>
 
         <img src={arttuJariPNG} alt='Arttu ja Jari' />
       </div>
