@@ -9,6 +9,12 @@ const Info = () => {
   return (
     <div id='Info' className='Info page'>
 
+      <div className='highlight'>
+        <h1>Aitomäen Myllerrys 2024 <br />on päättynyt</h1>
+          <p>Kiitoksia kaikille osallistuneille!</p>
+          <p>Seuraavaa Myllerrystä organisoidaan paraikaa ja tiedot vuoden 2025 tapahtumasta päivitetään tänne heti kun päivämäärä on varmistunut. Pysy kuulolla!</p>
+      </div>
+
       <h1>Aitomäen Myllerrys 16.-18.8.2024</h1>
       <div className='contents'>
         <p>
